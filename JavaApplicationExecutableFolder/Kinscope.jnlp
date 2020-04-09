@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Kinscope.jnlp">
+  <information>
+    <title>Kinscope2</title>
+    <vendor>Unknown</vendor>
+    <description>Kinscope2</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Kinscope.jar" size="101914" download="eager" />
+    <jar href="sample\jSerialComm.jar" size="379549" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.Main"  name="Kinscope2" />
+  <update check="background"/>
+</jnlp>
